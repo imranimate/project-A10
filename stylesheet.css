@@ -1,3 +1,77 @@
-h1 {
-  color: red;
+body {
+  margin:0;
+  font-family: "Calibri";
+}
+a {
+  text-decoration: none;
+}
+a, btn {
+  transition: all 0.3s ease;
+}
+.ekstra-1 {
+  width: 100%;
+  margin: 0 auto;
+}
+.ekstra-1-container {
+  background-image: url(img/main.png);
+  background-size: cover;
+  color: white;
+  padding: 200px 180px 40px 180px;
+}
+.ekstra-1-container span {
+  color: #ffb200;
+}
+.halo {
+  font-size: 60px;
+  opacity: 0.9;
+  margin-bottom: 2px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.ekstra-1-container p {
+  font-size: 20px;
+  opacity: 0.8;
+}
+.btn {
+  padding: 10px 28px 10px 28px;
+  color:white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 5px;
+}
+.btn-ekstra-1 {
+  border-style: solid;
+  border-color: #ffb200;
+}
+.btn-ekstra-1:hover {
+  border-style: solid;
+  border-color: #f1f1f1;
+}
+.ekstra-1-menu {
+  height: 150px;
+  margin-top: 20px;
+}
+.menu {
+  float:left;
+  display: inline-block;
+  padding:10px 10px 10px 10px;
+  width: 25%;
+  background-color: rgba(128,128,128,0.5);
+  color: white;
+}
+.menu:hover {
+  background-color: rgba(40,40,40,0.8);
+}
+.menu-icon {
+  float:left;
+}
+.menu-content {
+  float: left;
+}
+.menu-content h1 {
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+.menu-content p {
+  font-size: 14px;
 }
