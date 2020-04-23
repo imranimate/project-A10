@@ -75,3 +75,41 @@ a, btn {
 .menu-content p {
   font-size: 14px;
 }
+
+header{
+  padding: 40px 173px;
+  transition: all 0.5s;
+}
+
+.head-right{
+  float: right;
+  margin-top: 36px;
+}
+
+.head-left{
+  float: left;
+}
+
+.head-right a{
+  color: white;
+  float: left;
+  display: block;
+  padding: 0 40px;
+  line-height: 40px;
+  font-weight: bold;
+
+}
+
+.head-right a:hover{
+  color: #FFB800;
+}
+
+.head-right a.aktif{
+  color: #FFB800;
+}
+
+.main{
+  background-image: url(main.png);
+  background-size: cover;
+  height: 786px;
+}
