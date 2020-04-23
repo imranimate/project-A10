@@ -16,7 +16,9 @@ a, btn {
   background-image: url(main.png);
   background-size: cover;
   color: white;
-  padding: 200px 180px 40px 180px;
+}
+.ekstra-1-content{
+    padding: 200px 180px 40px 180px;
 }
 .ekstra-1-container span {
   color: #ffb200;
